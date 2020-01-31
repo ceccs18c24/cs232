@@ -1,0 +1,143 @@
+CEC CS 18 c24
+Heleena Anna Varghese
+
+--------------------------------
+#1: Aim/task
+(t1):Linux commands
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+abcd.txt
+a.txt
+
+---------------
+
+Output: or Input & Output (whichever is applicable)
+work file:work.txt
+report file:report.txt
+
+-------------------
+Remarks if any:
+
+
+
+Input:ls
+Output:work.txt
+
+Input:ls -l
+Output:total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Jan 30 21:48 work.txt
+
+Input:ls -lt
+Output:total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Jan 30 21:48 work.txt
+
+Input: ls -ltr
+Out:total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Jan 30 21:48 work.txt
+
+in:alias
+out:alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+
+in:cat > abcd.txt
+out:^C
+
+in:cat abcd.txt
+out:24
+33
+52
+41
+10
+84
+
+in:sort -n abcd.txt
+out:
+10
+24
+33
+41
+52
+84
+
+in: cat > a.txt
+out:^C
+
+in: cut -f3 abcd.txt
+out:24
+33
+52
+41
+10
+84
+
+in: join abcd.txt a.txt
+out:
+join: a.txt:3: is not sorted: 
+join: abcd.txt:4: is not sorted: 41
+
+in:grep -c 24 abcd.txt
+out:1
+
+in:sort -n a.txt
+out:apple
+banana
+grapes
+papaya
+
+in:grep -c banana a.txt
+
+out:1
+
+
+in:grep -w banana a.txt
+
+out:banana
+
+
+in:join a.txt abcd.txt
+
+out:join: abcd.txt:4: is not sorted: 41
+join: a.txt:3: is not sorted: banana
+
+
+in:cut -b 1,2,3 a.txt
+
+out:
+app
+gra
+ban
+pap
+
+in:paste a.txt abcd.txt
+out:apple	24
+grapes	33
+banana	52
+papaya	41
+	10
+	84
+in; whoami
+out:s4c1
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
