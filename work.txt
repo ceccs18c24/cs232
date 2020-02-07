@@ -1,145 +1,0 @@
-Script started on Friday 07 February 2020 10:00:29 AM IST
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ifconfig -a
-enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e0:ae:26  
-          inet addr:192.168.0.166  Bcast:192.168.1.255  Mask:255.255.254.0
-          inet6 addr: fe80::6e92:2d3d:123b:406d/64 Scope:Link
-          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
-          RX packets:49088 errors:0 dropped:19 overruns:0 frame:0
-          TX packets:3735 errors:0 dropped:0 overruns:0 carrier:0
-          collisions:0 txqueuelen:1000 
-          RX bytes:9395327 (9.3 MB)  TX bytes:447052 (447.0 KB)
-          Interrupt:20 Memory:fbbc0000-fbbe0000 
-
-lo        Link encap:Local Loopback  
-          inet addr:127.0.0.1  Mask:255.0.0.0
-          inet6 addr: ::1/128 Scope:Host
-          UP LOOPBACK RUNNING  MTU:65536  Metric:1
-          RX packets:616 errors:0 dropped:0 overruns:0 frame:0
-          TX packets:616 errors:0 dropped:0 overruns:0 carrier:0
-          collisions:0 txqueuelen:1000 
-          RX bytes:49488 (49.4 KB)  TX bytes:49488 (49.4 KB)
-
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ifconfig eth0 192.168.0.20
-SIOCSIFADDR: Operation not permitted
-eth0: ERROR while getting interface flags: No such device
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ifconfig eth0 192.168.0.20[1P030
-SIOCSIFADDR: Operation not permitted
-eth0: ERROR while getting interface flags: No such device
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ifconfig eth0 192.168.0.30[K[K2
-SIOCSIFADDR: Operation not permitted
-eth0: ERROR while getting interface flags: No such device
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ eth0 up
-eth0: command not found
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ifconfig eth0 up
-eth0: ERROR while getting interface flags: No such device
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ifconfig eth0 up[9P[C[C[C[C[C[C[Cifconfig eth0 192.168.0.2302030[1P2eth0 up[K[9@ifconfig [C[C[C[C[C[C[C[Kroute
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-default         192.168.0.2     0.0.0.0         UG    100    0        0 enp0s25
-link-local      *               255.255.0.0     U     1000   0        0 enp0s25
-192.168.0.0     *               255.255.254.0   U     100    0        0 enp0s25
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ route -n
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-0.0.0.0         192.168.0.2     0.0.0.0         UG    100    0        0 enp0s25
-169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp0s25
-192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp0s25
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ route -n[K[Kadd dea[Kfault gw 192.168 .0.20
-SIOCADDRT: Operation not permitted
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ route add default gw 192.168..0.20[K
-SIOCADDRT: Operation not permitted
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ping
-Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
-            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
-            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
-            [-w deadline] [-W timeout] [hop1 ...] destination
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ping 192.168.0.2
-PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
-64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.725 ms
-64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.478 ms
-64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.667 ms
-64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.629 ms
-64 bytes from 192.168.0.2: icmp_seq=5 ttl=64 time=0.677 ms
-64 bytes from 192.168.0.2: icmp_seq=6 ttl=64 time=0.304 ms
-^C
---- 192.168.0.2 ping statistics ---
-6 packets transmitted, 6 received, 0% packet loss, time 5123ms
-rtt min/avg/max/mdev = 0.304/0.580/0.725/0.145 ms
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ cat /etc/resolv.config[K[K[Kf
-# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
-#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ cat /etc/resolv.conf
-# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
-#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ cat /etc/resolv.conf
-# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
-#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ech0 "[1@i[1@f[1@ [1P[1@c[1@o[1@n[1@f[1@i[1@g[1@ [C[C[C[C[C[C[K
-ech0: error fetching interface information: Device not found
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ifconfig ech0 [K[K[K[K[Kcat /etc/resolv.conf[1@i[1@f[1@ [1P[C[1@c[1@o[1@n[1@f[1@igcat /etc/resolv.conf [A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[C[C[C[C[C[C cat /etc/resolv.conff[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C
-
-Usage:
-  ifconfig [-a] [-v] [-s] <interface> [[<AF>] <address>]
-  [add <address>[/<prefixlen>]]
-  [del <address>[/<prefixlen>]]
-  [[-]broadcast [<address>]]  [[-]pointopoint [<address>]]
-  [netmask <address>]  [dstaddr <address>]  [tunnel <address>]
-  [outfill <NN>] [keepalive <NN>]
-  [hw <HW> <address>]  [metric <NN>]  [mtu <NN>]
-  [[-]trailers]  [[-]arp]  [[-]allmulti]
-  [multicast]  [[-]promisc]
-  [mem_start <NN>]  [io_addr <NN>]  [irq <NN>]  [media <type>]
-  [txqueuelen <NN>]
-  [[-]dynamic]
-  [up|down] ...
-
-  <HW>=Hardware Type.
-  List of possible hardware types:
-    loop (Local Loopback) slip (Serial Line IP) cslip (VJ Serial Line IP) 
-    slip6 (6-bit Serial Line IP) cslip6 (VJ 6-bit Serial Line IP) adaptive (Adaptive Serial Line IP) 
-    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
-    netrom (AMPR NET/ROM) rose (AMPR ROSE) tunnel (IPIP Tunnel) 
-    ppp (Point-to-Point Protocol) hdlc ((Cisco)-HDLC) lapb (LAPB) 
-    arcnet (ARCnet) dlci (Frame Relay DLCI) frad (Frame Relay Access Device) 
-    sit (IPv6-in-IPv4) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
-    irda (IrLAP) ec (Econet) x25 (generic X.25) 
-    eui64 (Generic EUI-64) 
-  <AF>=Address family. Default: inet
-  List of possible address families:
-    unix (UNIX Domain) inet (DARPA Internet) inet6 (IPv6) 
-    ax25 (AMPR AX.25) netrom (AMPR NET/ROM) rose (AMPR ROSE) 
-    ipx (Novell IPX) ddp (Appletalk DDP) ec (Econet) 
-    ash (Ash) x25 (CCITT X.25) 
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ifconfig cat /etc/resolv.conff[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /etc/resolv.conff[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig cat /etc/resolv.conff[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /etc/resolv.conff[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/etc/resolv.conf [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /etc/resolv.conff[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ccat /etc/resolv.conf [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P
-# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
-#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ cat /etc/resolv.conf
-# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
-#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ech0 "nameserver1.1. 1.1.[C[C[C[C1.1 [K" >> tr[K[Kresolv[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [8Pcat /etc/resolv.conf
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cech0 "nameserver 1.1.1.1" >>rresolv[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch0 "nameserver 1.1.1.1" >>re[1Psolv[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [Cth0 "nameserver 1.1.1.1" >>resolv[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[C[C[C[C[C[C.conf
-eth0: command not found
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ eth0 "nameserver 1.1.1.1" >>rresolv.conf[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "nameserver 1.1.1.1" >>re[1Psolv.conf[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[Co "nameserver 1.1.1.1" >>resolv.conf[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[C[C
-
-No command 'etho' found, did you mean:
- Command 'echo' from package 'coreutils' (main)
-etho: command not found
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ etho "nameserver 1.1.1.1" >>rresolv.conf[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[C0
-[C[C[C[C[C[C[C[C[C[C[C
-eth0: command not found
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ eth0 "nameserver 1.1.1.1" >>rresolv.conf[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch0 "nameserver 1.1.1.1" >>re[1Psolv.conf[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [Cch0 "nameserver 1.1.1.1" >>resolv.conf[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C
-
-No command 'ech0' found, did you mean:
- Command 'echo' from package 'coreutils' (main)
-ech0: command not found
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ ech0 "nameserver 1.1.1.1" >>rresolv.conf[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "nameserver 1.1.1.1" >>re[1Psolv.conf[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[Co "nameserver 1.1.1.1" >>resolv.conf[A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ [C[C[C[C
-
-]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/0702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/0702[00m$ exit[K[K[K[Kifup[K[K[K[Kexit
-exit
-
-Script done on Friday 07 February 2020 10:44:50 AM IST
