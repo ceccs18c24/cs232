@@ -1,0 +1,392 @@
+Script started on Monday 17 February 2020 09:15:40 AM IST
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702[00m$ ssh csc241c248c24[C[C[C@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c24@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+$ ss  cp  scp work.txt cs18c24@192.168.0.30:1702                                      rsync -av 1702/t  test/ ,  
+sending incremental file list
+rsync: change_dir "/home/cs18c24//1702" failed: No such file or directory (2)
+created directory test
+
+sent 20 bytes  received 39 bytes  118.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ rsync       scp worl k.txt            mkdir tesr t          ls
+0702  3101  cs232  examples.desktop  report.txt  test  work.txt
+$ touch abc
+$ ls
+0702  3101  abc  cs232	examples.desktop  report.txt  test  work.txt
+$ rm abc
+$ ls
+0702  3101  cs232  examples.desktop  report.txt  test  work.txt
+$ r scp     work.txt cs18c24@192.168.0.30:1702
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c24@192.168.0.30's password: 
+work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100% 7083     6.9KB/s   00:00    
+$ sc  ^[[A^[[A        exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702[00m$ mh[Kkdir xyz
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702[00m$ ls
+work.txt  [0m[01;34mxyz[0m
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702[00m$ ssh cs18c24@192.18[K68.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c24@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 17 09:37:34 2020 from 192.168.0.166
+$ mkdir aa
+$ ls
+0702  1702  3101  aa  cs232  examples.desktop  report.txt  test  work.txt
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702[00m$ pwd
+/home/s4c1/ceccs18c24/cs232/1702
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702[00m$ cd ,[K..
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232[00m$ rsync -a 1702 cs18c24@192.168.0.3 0:aa
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c24@192.168.0.30's password: 
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232[00m$ ssh18c [1@ [1@c[1@s[C[C[C2 4 @ 1 9 2 . 1 6 8 . 0 . 0 [1P 3 0 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c24@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 17 10:30:49 2020 from 192.168.0.166
+$ ls
+0702  1702  3101  aa  cs232  examples.desktop  report.txt  test  work.txt
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232[00m$ scp [K[K[K[Kscript work.txt
+Script started, file is work.txt
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232[00m$ e[Kpdftotext[K[K[K[K[K[K[K[K[Kcd 1702
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702[00m$ pdf to[K[K[Ktotext -layout result_CHN .pdf result_CHN[K[K[Kcs[K[KCHN.txt
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702[00m$ grep --no-group-seper[K[Karator -A 3 "CHN18Cs[KS" result_CHN.txt > result_cs.txt
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702[00m$ cd s1c[K
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ chmod +x script.sh
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ gedit students.txt
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS002 ABHIITHP 
+CHN18CS002: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS003 ABIN BINU SAM  [A
+CHN18CS003: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS005 ADHIL SHAHANAD  K K 
+CHN18CS005: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS006 ADWAITH SIVAN  [A
+CHN18CS006: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS007 Aju George Jac ob 
+CHN18CS007: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS008 AKHIL RAVINDRA N 
+CHN18CS008: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS012 ALKA ANNA SABU  
+CHN18CS012: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS015 Amal Ramachand ran 
+CHN18CS015: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS018 ANJANA S 
+CHN18CS018: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS023 ARAVIND R 
+CHN18CS023: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS024 ARJUN A 
+CHN18CS024: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS025 ARJUN G KRISHN A 
+CHN18CS025: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS028 ASHIK DAVID AB RAHAM 
+CHN18CS028: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS029 Ashna A 
+CHN18CS029: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS035 DEEPA MARIAM G EORGE 
+CHN18CS035: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS037 DEVIKA J 
+CHN18CS037: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS039 Emmanuel Shine  Joseph 
+CHN18CS039: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS043 GEORGE MANI 
+CHN18CS043: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS046 GOPIKA PRADEEP  
+CHN18CS046: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS047 GOPIKA SURESH  [A
+CHN18CS047: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS048 GOPUDAS KM 
+CHN18CS048: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS049 GOVIND KARTHA  [A
+CHN18CS049: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS051 HABEL JAMES GE ORGE 
+CHN18CS051: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS052 HARI S R 
+CHN18CS052: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS053 HELEENA ANNA V ARGHESE 
+CHN18CS053: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS055 lrene Maria Za chariah 
+CHN18CS055: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS056 JALENA MATHEW  [A
+CHN18CS056: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS057 JEENU CHACKO 
+CHN18CS057: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS060 Jessal John Ma mmen 
+CHN18CS060: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS061 Jesswin W Varg hese 
+CHN18CS061: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS063 Jibin Joseph 
+CHN18CS063: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS064 JISA SURENDRAN  
+CHN18CS064: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS068 Jonathan John  Varghese 
+CHN18CS068: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS069 JOSHENA JOSEPH  
+CHN18CS069: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS071 JUSTIN JOSEPH  [A
+CHN18CS071: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS073 KAVYA M 
+CHN18CS073: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS076 KIRAN U 
+CHN18CS076: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS079 Manu Mathew 
+CHN18CS079: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS080 MARGRET JAISON  
+CHN18CS080: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS082 Muhammad Jalal  
+CHN18CS082: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS083 MUNISH KUMAR 
+CHN18CS083: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS084 NAJEEB 
+CHN18CS084: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS090 NIMMY GEORGE 
+CHN18CS090: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS092 NIVEA GIGEN 
+CHN18CS092: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS093 Nivya Maria Ma thew 
+CHN18CS093: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS095 PARVATHY KRISH NAN 
+CHN18CS095: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS096 PARVATHY SANTH OSH 
+CHN18CS096: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS097 Prayank P Nair  
+CHN18CS097: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS100 Remya C 
+CHN18CS100: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS101 REMYA RAVEEDRA NATHAN
+CHN18CS101: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS103 RINU ELISABATH  MATHEW 
+CHN18CS103: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS104 Rojin K Sunny  [A
+CHN18CS104: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS108 SARATH KUMAR S  
+CHN18CS108: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS109 SAURAV K.J. 
+CHN18CS109: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS110 SEBA SUSAN MAT HEW 
+CHN18CS110: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS111 SHILPA SAJAN P UNNOOSE
+CHN18CS111: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS113 SONA SEBASTIAN  
+CHN18CS113: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS114 SOUMYAMOL S 
+CHN18CS114: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS115 SREEJITH MURAL I 
+CHN18CS115: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS118 THEJUS R 
+CHN18CS118: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS120 VISHNUSS 
+CHN18CS120: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS121 VISHWANATH R A THREY 
+CHN18CS121: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS122 VIVEK K P 
+CHN18CS122: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ ..[K/script.sh
+I/O Error: Couldn't open file 'result_CHN.pdf': No such file or directory.
+grep: result_CHN.txt: No such file or directory
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ ./script.sh
+join: students.txt:64: is not sorted: 
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ ./script.shCHN18CS122 VIVEK K P [10P./script.sh[Kgedit students.txt
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ ./script,[K.sh
+join: students.txt:64: is not sorted: 
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS002 ABHIITHP 
+CHN18CS002: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS003 ABIN BINU SAM  [A
+CHN18CS003: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS005 ADHIL SHAHANAD  K K 
+CHN18CS005: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS006 ADWAITH SIVAN  [A
+CHN18CS006: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS007 Aju George Jac ob 
+CHN18CS007: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS008 AKHIL RAVINDRA N 
+CHN18CS008: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS012 ALKA ANNA SABU  
+CHN18CS012: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS015 Amal Ramachand ran 
+CHN18CS015: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS018 ANJANA S 
+CHN18CS018: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS023 ARAVIND R 
+CHN18CS023: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS024 ARJUN A 
+CHN18CS024: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS025 ARJUN G KRISHN A 
+CHN18CS025: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS028 ASHIK DAVID AB RAHAM 
+CHN18CS028: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS029 Ashna A 
+CHN18CS029: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS035 DEEPA MARIAM G EORGE 
+CHN18CS035: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS037 DEVIKA J 
+CHN18CS037: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS039 Emmanuel Shine  Joseph 
+CHN18CS039: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS043 GEORGE MANI 
+CHN18CS043: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS046 GOPIKA PRADEEP  
+CHN18CS046: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS047 GOPIKA SURESH  [A
+CHN18CS047: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS048 GOPUDAS KM 
+CHN18CS048: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS049 GOVIND KARTHA  [A
+CHN18CS049: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS051 HABEL JAMES GE ORGE 
+CHN18CS051: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS052 HARI S R 
+CHN18CS052: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS053 HELEENA ANNA V ARGHESE 
+CHN18CS053: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS055 lrene Maria Za chariah 
+CHN18CS055: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS056 JALENA MATHEW  [A
+CHN18CS056: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS057 JEENU CHACKO 
+CHN18CS057: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS060 Jessal John Ma mmen 
+CHN18CS060: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS061 Jesswin W Varg hese 
+CHN18CS061: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS063 Jibin Joseph 
+CHN18CS063: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS064 JISA SURENDRAN  
+CHN18CS064: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS068 Jonathan John  Varghese 
+CHN18CS068: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS069 JOSHENA JOSEPH  
+CHN18CS069: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS071 JUSTIN JOSEPH  [A
+CHN18CS071: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS073 KAVYA M 
+CHN18CS073: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS076 KIRAN U 
+CHN18CS076: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS079 Manu Mathew 
+CHN18CS079: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS080 MARGRET JAISON  
+CHN18CS080: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS082 Muhammad Jalal  
+CHN18CS082: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS083 MUNISH KUMAR 
+CHN18CS083: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS084 NAJEEB 
+CHN18CS084: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS090 NIMMY GEORGE 
+CHN18CS090: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS092 NIVEA GIGEN 
+CHN18CS092: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS093 Nivya Maria Ma thew 
+CHN18CS093: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS095 PARVATHY KRISH NAN 
+CHN18CS095: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS096 PARVATHY SANTH OSH 
+CHN18CS096: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS097 Prayank P Nair  
+CHN18CS097: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS100 Remya C 
+CHN18CS100: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS101 REMYA RAVEEDRA NATHAN
+CHN18CS101: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS103 RINU ELISABATH  MATHEW 
+CHN18CS103: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS104 Rojin K Sunny  [A
+CHN18CS104: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS108 SARATH KUMAR S  
+CHN18CS108: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS109 SAURAV K.J. 
+CHN18CS109: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS110 SEBA SUSAN MAT HEW 
+CHN18CS110: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS111 SHILPA SAJAN P UNNOOSE
+CHN18CS111: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS113 SONA SEBASTIAN  
+CHN18CS113: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS114 SOUMYAMOL S 
+CHN18CS114: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS115 SREEJITH MURAL I 
+CHN18CS115: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS118 THEJUS R 
+CHN18CS118: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS120 VISHNUSS 
+CHN18CS120: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS121 VISHWANATH R A THREY 
+CHN18CS121: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS122 VIVEK K P 
+CHN18CS122: command not found
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ CHN18CS122 VIVEK K P [KCHN18CS122 VIVEK K P [KCHN18CS122 VIVEK K P 1 VISHWANATH R ATTHREY [A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ [C[C[C[C[C[C[C[C[C[5P0 VISHNUSS 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C18 THEJUS R[C5 SREEJITH MURALII [A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ [C[C[C[C[C[C[C[C[C[2P4 SOUMYAMOL S 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 SONA SEBASTIAN  [A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ [C[C[C[C[C[C[C[C[C[2P4 SOUMYAMOL S 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5 SREEJITH MURALII [A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ [C[C[C[C[C[C[C[C[C[5P8 THEJUS R 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C20 VISHNUSS[C1 VISHWANATH R ATTHREY [A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ [C[C[C[C[C[C[C[C[C[4P2 VIVEK K P 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgedit script.sh 
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ gedit script.sh [5@CHN18CS122 VIVEK K P[C1 VISHWANATH R ATTHREY [A]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ [C[C[C[C[C[C[C[C[C[4P2 VIVEK K P 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pgedit script.sh[C[Kgedit script.sh [1P[1P[1P[1P[1P[1P[1@.[1@/
+join: students.txt:64: is not sorted: 
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ ./script.sh [4@gedit [C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ gedit script.sh [4P./[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ gedi[Kit cgpa.txt 
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ gedit report.txt
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/1702/s1[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/1702/s1[00m$ sftp cs18c24@192.168.0.30 [A
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c24@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mkdir 1702
+Couldn't create directory: Failure
+sftp> cd 1702
+Can't change directory: "/home/cs18c24/1702" is not a directory
+sftp> mkdir 1702
+Couldn't create directo
