@@ -1,0 +1,27 @@
+Script started on Friday 28 February 2020 09:54:01 AM IST
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/2802[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/2802[00m$ gedit index.html
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/2802[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/2802[00m$ gedit index.html
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/2802[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/2802[00m$ ifconfig
+enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e0:ae:26  
+          inet addr:192.168.0.166  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::6e92:2d3d:123b:406d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:178762 errors:0 dropped:31 overruns:0 frame:0
+          TX packets:6391 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:20758958 (20.7 MB)  TX bytes:1054792 (1.0 MB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1258 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1258 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:97712 (97.7 KB)  TX bytes:97712 (97.7 KB)
+
+]0;s4c1@ceclab-Veriton-Series: ~/ceccs18c24/cs232/2802[01;32ms4c1@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c24/cs232/2802[00m$ exit
+exit
+
+Script done on Friday 28 February 2020 11:19:36 AM IST

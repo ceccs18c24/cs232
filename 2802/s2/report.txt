@@ -1,0 +1,71 @@
+CEC CS 18 c24
+Heleena Anna varghese
+MAC address: HWaddr 10:78:d2:e0:ae:26  
+
+--------------------------------
+#1: Aim/task
+---------------------------------
+Command/Shell script/Program name
+Create own web page at our server (t9)
+		
+	# To fetch the sample index	
+	wget http://192.168.0.30/cs18c/cs18c24
+	# To put the page to the server
+	sftp
+	# To edit the contents of .html file
+	nano 	
+
+--------------------------------
+Output: 
+
+	# The page can be viewed at
+	http://192.168.0.30/cs18c/cs18c24
+
+-------------------
+---------------------------------
+#2:SCRIPTING TASK (t2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	/S2/script.sh
+
+Input: 
+---------------
+
+	# result downloaded from ktu site
+	/S2/result_CHN.pdf
+
+	# student details file containing roll number 
+	/S2/students.txt
+
+
+--------------------------------
+Output: 
+
+	# file with cgpa/count of subjects student failed in 
+	/S2/cgpa.txt
+
+
+
+
+-------------------
+Remarks if any:
+
+
+The links to the work.txt and report.txt are giving a HTTP 403
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
