@@ -1,0 +1,56 @@
+CEC CS 18 C24    21-03-20
+HELEENA ANNA VARGHESE
+--------------------------------
+#1: Perl
+---------------------------------
+Program Name:
+----------------------------
+1. Hello World Program
+
+
+2. Program to access an array
+
+
+3. Program to find factorial of a number
+
+
+
+------------------------------------
+
+#Output
+-------------------------
+1. # Output of helloworld.pl
+
+	Hello Perl
+
+2. # Output of arrays.pl	
+	
+	c++
+	c
+	java
+	python
+	javascript
+
+3. # Output of factorial.pl
+
+	Enter a number: 4
+	Factorial is 24
+
+---------------------------------
+
+Remarks if any:
+
+
+
+---------------------------------
+---------------------------------
+
+
+
+
+
+
+
+
+
+------------------------------------
