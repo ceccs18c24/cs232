@@ -1,0 +1,76 @@
+CEC CS 18 c24
+Heleena Anna Varghese
+
+--------------------------------
+#1:
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+1)  program to print hello world
+
+2)  program to find factorial of a number
+
+3)  program to find fibonacci series
+
+4)   program to check whether a number is prime or not
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+1)  Hello world
+
+
+2)   Enter number5
+    Factorial is 120 
+
+    Enter number7
+   Factorial is 5040 
+
+
+3)   Enter the range 6
+     0
+     1
+     1
+     2
+     3
+     5
+     Enter the range  9
+     0
+     1
+     1
+     2
+     3
+     5
+     8
+    13
+    21
+
+
+4) Enter the number5
+   Prime number
+ 
+  Enter the number9
+   Not prime 
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+

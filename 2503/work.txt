@@ -1,0 +1,48 @@
+Script started on Wednesday 25 March 2020 02:43:00 PM EDT
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ sftp cs18c24@14.139.189..217[A]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ [11Pput work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pcd 2503[3@mkdir[C[C[C[C[Csftp cs18c24@14.139.189..217[A]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ [13Pmkdir 2503
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pcd[C[C[C[C[Cput work.txtsftp cs18c24@14.139.189..217[A]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit hello.pl
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ perl hello.pl
+Hello world
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ gedit fact.[Korial.pl
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ gedit factorial.pl[5Pperl hello.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plf.pla.plc.plt.plo.plr.pli.pla.pll.pl
+Enter number5
+Factorial is 120 
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ perl factorial.pl
+Enter number7
+Factorial is 5040 
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ perl factorial.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pli.plb.pl
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ gedit fib.plperl factorial.pl[5Pgedit fib.pl[1P fib.pl[1P fib.pl[1P fib.pl[1P fib.pl[1P fib.plp fib.ple fib.plr fib.pll fib.pl
+Enter the range6
+0
+1
+1
+2
+3
+5
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ perl fib.pl
+Enter the range9
+0
+1
+1
+2
+3
+5
+8
+13
+21
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ perl fib.pl[1@gedit[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.plp.plr.pli.plm.ple.pl
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ gedit prime.pl[1P prime.pl[1P prime.pl[1P prime.pl[1P prime.pl[1P prime.plp prime.ple prime.plr prime.pll prime.pl
+Enter the number5
+Prime number]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ perl prime.pl[1@gedit[C[C[C[C[C[C[C[C[C
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ gedit prime.pl[1Pperl[C[C[C[C[C[C[C[C[C
+Enter the number5
+Prime number
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ perl prime.pl
+Enter the number9
+Not prime 
+]0;user@user-Inspiron-3647: ~/Desktop/ceccs18c24/cs232/2503user@user-Inspiron-3647:~/Desktop/ceccs18c24/cs232/2503$ exit
+exit
+
+Script done on Wednesday 25 March 2020 03:01:06 PM EDT
