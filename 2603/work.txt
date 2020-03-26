@@ -1,0 +1,261 @@
+Script started on 2020-03-26 11:45:05+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get [K[A]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get[K]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get update
+[sudo] password for heleena: 
+0% [Working]            Hit:1 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+0% [Connecting to security.ubuntu.com (91.189.88.142)] [Connecting to dl.google.com]0% [1 InRelease gpgv 242 kB] [Waiting for headers] [Connecting to security.ubuntu.com (91.1                                                                                           Get:2 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+0% [1 InRelease gpgv 242 kB] [2 InRelease 1,162 B/88.7 kB 1%] [Connecting to security.ubunt0% [1 InRelease gpgv 242 kB] [Connecting to security.ubuntu.com (91.189.88.142)] [Waiting f                                                                                           Ign:3 http://dl.google.com/linux/chrome/deb stable InRelease
+0% [1 InRelease gpgv 242 kB] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Connect0% [Waiting for headers] [Connecting to security.ubuntu.com (91.189.91.39)] [Waiting for he0% [2 InRelease gpgv 88.7 kB] [Waiting for headers] [Waiting for headers] [Waiting for head                                                                                           Get:4 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+0% [2 InRelease gpgv 88.7 kB] [4 InRelease 1,162 B/74.6 kB 2%] [Waiting for headers] [Waiti                                                                                           Get:5 http://dl.google.com/linux/chrome/deb stable Release [943 B]
+0% [2 InRelease gpgv 88.7 kB] [4 InRelease 14.0 kB/74.6 kB 19%] [Waiting for headers] [5 Re                                                                                           0% [2 InRelease gpgv 88.7 kB] [4 InRelease 14.0 kB/74.6 kB 19%] [Waiting for headers]                                                                                     0% [2 InRelease gpgv 88.7 kB] [Waiting for headers] [Waiting for headers]                                                                         Get:6 http://dl.google.com/linux/chrome/deb stable Release.gpg [819 B]
+0% [2 InRelease gpgv 88.7 kB] [Waiting for headers] [6 Release.gpg 819 B/819 B 100%]                                                                                    0% [2 InRelease gpgv 88.7 kB] [Waiting for headers]                                                   0% [Waiting for headers]0% [4 InRelease gpgv 74.6 kB] [Waiting for headers]                                                   Get:7 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [892 kB]
+0% [4 InRelease gpgv 74.6 kB] [7 Packages 2,589 B/892 kB 0%] [Waiting for headers]                                                                                  0% [7 Packages 5,445 B/892 kB 1%] [Waiting for headers]0% [6 Release.gpg gpgv 943 B] [7 Packages 5,445 B/892 kB 1%] [Waiting for headers]                                                                                  Get:8 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+0% [6 Release.gpg gpgv 943 B] [7 Packages 165 kB/892 kB 19%] [8 InRelease 1,121 B/88.7 kB 1                                                                                           0% [7 Packages 461 kB/892 kB 52%] [8 InRelease 70.7 kB/88.7 kB 80%]                                                                   0% [7 Packages 542 kB/892 kB 61%] [Waiting for headers]0% [8 InRelease gpgv 88.7 kB] [7 Packages 545 kB/892 kB 61%] [Waiting for headers]                                                                                  Get:9 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,139 B]
+0% [8 InRelease gpgv 88.7 kB] [7 Packages 757 kB/892 kB 85%] [9 Packages 1,139 B/1,139 B 10                                                                                           0% [8 InRelease gpgv 88.7 kB] [7 Packages 851 kB/892 kB 95%]0% [9 Packages store 0 B] [8 InRelease gpgv 88.7 kB] [7 Packages 851 kB/892 kB 95%]                                                                                   0% [8 InRelease gpgv 88.7 kB] [7 Packages 851 kB/892 kB 95%]                                                            34% [7 Packages 851 kB/892 kB 95%]34% [Connecting to security.ubuntu.com (91.189.91.39)]34% [7 Packages store 0 B] [Connecting to security.ubuntu.com (91.189.91.39)]                                                                             Get:10 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [659 kB]
+34% [7 Packages store 0 B] [10 Packages 1,161 B/659 kB 0%] [Waiting for headers]                                                                                39% [10 Packages 312 kB/659 kB 47%] [Waiting for headers]                                                         Get:11 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [38.5 kB]
+42% [10 Packages 497 kB/659 kB 75%] [11 Components-amd64 1,221 B/38.5 kB 3%]                                                                            42% [10 Packages 497 kB/659 kB 75%]42% [11 Components-amd64 store 0 B] [10 Packages 497 kB/659 kB 75%]42% [10 Packages 497 kB/659 kB 75%] [Connecting to security.ubuntu.com (91.189.91.38)]                                                                                      45% [Connecting to security.ubuntu.com (91.189.91.38)]45% [10 Packages store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Connecti                                                                                           Get:12 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [307 kB]
+                                                                                           45% [10 Packages store 0 B] [12 Components-amd64 2,589 B/307 kB 1%] [Waiting for headers]                                                                                         45% [12 Components-amd64 36.5 kB/307 kB 12%] [Waiting for headers]                                                                  49% [Waiting for headers]49% [12 Components-amd64 store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [                                                                                           Get:13 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [73.8 kB]
+49% [12 Components-amd64 store 0 B] [13 icons-48x48 1,162 B/73.8 kB 2%] [Waiting for header                                                                                           49% [13 icons-48x48 9,730 B/73.8 kB 13%] [Waiting for headers]                                                              50% [Waiting for headers]50% [13 icons-48x48 store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Waiti                                                                                           Get:14 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [17.6 kB]
+50% [13 icons-48x48 store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [14 ic50% [Connecting to in.archive.ubuntu.com (103.97.84.254)] [14 icons-48x48 1,221 B/17.6 kB 7                                                                                           51% [Connecting to in.archive.ubuntu.com (103.97.84.254)]51% [14 icons-48x48 store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Conne51% [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Connecting to security.ubuntu.co                                                                                           Get:15 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [140 kB]
+                                                                                           51% [15 icons-64x64 1,161 B/140 kB 1%] [Connecting to security.ubuntu.com (91.189.88.152)]                                                                                          53% [Connecting to security.ubuntu.com (91.189.88.152)]53% [15 icons-64x64 store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Conne53% [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Connecting to security.ubuntu.co                                                                                           Get:16 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [1,012 kB]
+                                                                                           53% [16 Packages 1,160 B/1,012 kB 0%] [Connecting to security.ubuntu.com (91.189.88.152)]                                                                                         Get:17 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [41.5 kB]
+                                                                                         59% [16 Packages 424 kB/1,012 kB 42%] [17 icons-64x64 2,649 B/41.5 kB 6%]                                                                         59% [16 Packages 424 kB/1,012 kB 42%]59% [17 icons-64x64 store 0 B] [16 Packages 424 kB/1,012 kB 42%] [Connecting to security.ub                                                                                           60% [16 Packages 424 kB/1,012 kB 42%] [Connecting to security.ubuntu.com (91.189.88.142)]                                                                                         66% [16 Packages 869 kB/1,012 kB 86%] [Waiting for headers]                                                           Get:18 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [42.1 kB]
+67% [16 Packages 915 kB/1,012 kB 90%] [18 Components-amd64 2,649 B/42.1 kB 6%]                                                                              68% [16 Packages 952 kB/1,012 kB 94%]68% [18 Components-amd64 store 0 B] [16 Packages 952 kB/1,012 kB 94%] [Connecting to securi                                                                                           68% [16 Packages 1,001 kB/1,012 kB 99%] [Connecting to security.ubuntu.com (91.189.91.39)]                                                                                          69% [Connecting to security.ubuntu.com (91.189.91.39)]69% [16 Packages store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Connecti                                                                                           Get:19 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,060 kB]
+69% [16 Packages store 0 B] [19 Packages 1,159 B/1,060 kB 0%] [Connecting to security.ubunt                                                                                           73% [19 Packages 314 kB/1,060 kB 30%] [Connecting to security.ubuntu.com (91.189.91.39)]                                                                                        Get:20 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [111 kB]
+                                                                                        76% [19 Packages 514 kB/1,060 kB 48%] [20 icons-64x64 1,219 B/111 kB 1%]                                                                        78% [19 Packages 514 kB/1,060 kB 48%]78% [20 icons-64x64 store 0 B] [19 Packages 514 kB/1,060 kB 48%] [Connecting to security.ub                                                                                           78% [19 Packages 514 kB/1,060 kB 48%] [Connecting to security.ubuntu.com (91.189.91.38)]                                                                                        85% [Waiting for headers]85% [19 Packages store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Waiting                                                                                            Get:21 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [273 kB]
+                                                                                           86% [19 Packages store 0 B] [21 Components-amd64 4,017 B/273 kB 1%] [Waiting for headers]                                                                                         89% [19 Packages store 0 B] [Waiting for headers]89% [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Waiting for headers]89% [21 Components-amd64 store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [                                                                                           Get:22 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [206 kB]
+89% [21 Components-amd64 store 0 B] [22 icons-48x48 1,161 B/206 kB 1%] [Waiting for headers                                                                                           90% [22 icons-48x48 49.3 kB/206 kB 24%] [Waiting for headers]                                                             93% [Waiting for headers]93% [22 icons-48x48 store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Waiti                                                                                           93% [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Waiting for headers]                                                                               Get:23 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [477 kB]
+                                                                               93% [23 icons-64x64 1,161 B/477 kB 0%] [Waiting for headers]                                                            99% [Waiting for headers]99% [23 icons-64x64 store 0 B] [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Waiti                                                                                           100% [Connecting to in.archive.ubuntu.com (103.97.84.254)] [Waiting for headers]                                                                                Get:24 http://in.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,464 B]
+                                                                                100% [24 Components-amd64 2,464 B/2,464 B 100%] [Waiting for headers]                                                                     100% [Waiting for headers]100% [24 Components-amd64 store 0 B] [Waiting for headers] [Waiting for headers]                                                                                100% [Waiting for headers] [Waiting for headers]                                                Get:25 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7,980 B]
+100% [25 Components-amd64 4,020 B/7,980 B 50%] [Waiting for headers]                                                                    100% [Waiting for headers]100% [25 Components-amd64 store 0 B] [Waiting for headers]                                                          100% [Waiting for headers]100% [Waiting for headers]                          Get:26 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+100% [26 Components-amd64 2,464 B/2,464 B 100%]                                               100% [Working]100% [26 Components-amd64 store 0 B]                                    100% [Working]              Fetched 5,620 kB in 5s (1,039 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 5%Reading package lists... 5%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 30%Reading package lists... 32%Reading package lists... 32%Reading package lists... 56%Reading package lists... 56%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 73%Reading package lists... 73%Reading package lists... 75%Reading package lists... 75%Reading package lists... 77%Reading package lists... 77%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 85%Reading package lists... 85%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get install nmap
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libfwup1 libwayland-egl1-mesa
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libblas3 liblinear3
+Suggested packages:
+  liblinear-tools liblinear-dev ndiff
+The following NEW packages will be installed:
+  libblas3 liblinear3 nmap
+0 upgraded, 3 newly installed, 0 to remove and 13 not upgraded.
+Need to get 5,353 kB of archives.
+After this operation, 24.5 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libblas3 amd64 3.7.1-4ubuntu1 [140 kB]
+0% [1 libblas3 5,445 B/140 kB 4%]                                 9% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 liblinear3 amd64 2.1.0+dfsg-2 [39.3 kB]
+9% [2 liblinear3 5,447 B/39.3 kB 14%]                                     16% [Waiting for headers]                         Get:3 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 nmap amd64 7.60-1ubuntu5 [5,174 kB]
+16% [3 nmap 5,443 B/5,174 kB 0%]32% [3 nmap 1,061 kB/5,174 kB 21%]43% [3 nmap 1,801 kB/5,174 kB 35%]51% [3 nmap 2,343 kB/5,174 kB 45%]61% [3 nmap 2,980 kB/5,174 kB 58%]70% [3 nmap 3,584 kB/5,174 kB 69%]77% [3 nmap 4,091 kB/5,174 kB 79%]89% [3 nmap 4,859 kB/5,174 kB 94%]                                  100% [Working]              Fetched 5,353 kB in 4s (1,240 kB/s)
+Selecting previously unselected package libblas3:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 164380 files and directories currently installed.)
+Preparing to unpack .../libblas3_3.7.1-4ubuntu1_amd64.deb ...
+Unpacking libblas3:amd64 (3.7.1-4ubuntu1) ...
+Selecting previously unselected package liblinear3:amd64.
+Preparing to unpack .../liblinear3_2.1.0+dfsg-2_amd64.deb ...
+Unpacking liblinear3:amd64 (2.1.0+dfsg-2) ...
+Selecting previously unselected package nmap.
+Preparing to unpack .../nmap_7.60-1ubuntu5_amd64.deb ...
+Unpacking nmap (7.60-1ubuntu5) ...
+Setting up libblas3:amd64 (3.7.1-4ubuntu1) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/blas/libblas.so.3 to provide /usr/lib/x86_64-linux-gnu/libblas.so.3 (libblas.so.3-x86_64-linux-gnu) in auto mode
+Setting up liblinear3:amd64 (2.1.0+dfsg-2) ...
+Setting up nmap (7.60-1ubuntu5) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt remove nmap
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libblas3 libfwup1 liblinear3 libwayland-egl1-mesa
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  nmap
+0 upgraded, 0 newly installed, 1 to remove and 13 not upgraded.
+After this operation, 24.0 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;23r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 165204 files and directories currently installed.)
+Removing nmap (7.60-1ubuntu5) ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [......................................................................] 87[24;0f[42m[30mProgress: [ 25%][49m[39m [#################.....................................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [###################################...................................] 87[24;0f[42m[30mProgress: [ 75%][49m[39m [####################################################..................] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;24r8[1A[J]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get installtasksel tasksel
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libblas3 libfwup1 liblinear3 libwayland-egl1-mesa
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  tasksel-data
+The following NEW packages will be installed:
+  tasksel tasksel-data
+0 upgraded, 2 newly installed, 0 to remove and 13 not upgraded.
+Need to get 34.2 kB of archives.
+After this operation, 292 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 tasksel-data all 3.34ubuntu11 [5,476 B]
+13% [1 tasksel-data 5,476 B/5,476 B 100%]                                         23% [Working]             Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 tasksel all 3.34ubuntu11 [28.7 kB]
+32% [2 tasksel 4,019 B/28.7 kB 14%]                                   100% [Working]              Fetched 34.2 kB in 0s (137 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package tasksel-data.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 164394 files and directories currently installed.)
+Preparing to unpack .../tasksel-data_3.34ubuntu11_all.deb ...
+Unpacking tasksel-data (3.34ubuntu11) ...
+Selecting previously unselected package tasksel.
+Preparing to unpack .../tasksel_3.34ubuntu11_all.deb ...
+Unpacking tasksel (3.34ubuntu11) ...
+Setting up tasksel (3.34ubuntu11) ...
+Setting up tasksel-data (3.34ubuntu11) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt remove tasksel
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libblas3 libfwup1 liblinear3 libwayland-egl1-mesa
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  tasksel tasksel-data
+0 upgraded, 0 newly installed, 2 to remove and 13 not upgraded.
+After this operation, 292 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;23r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 164430 files and directories currently installed.)
+Removing tasksel (3.34ubuntu11) ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [......................................................................] 87[24;0f[42m[30mProgress: [ 14%][49m[39m [#########.............................................................] 87[24;0f[42m[30mProgress: [ 29%][49m[39m [###################...................................................] 87[24;0f[42m[30mProgress: [ 43%][49m[39m [##############################........................................] 8Removing tasksel-data (3.34ubuntu11) ...
+7[24;0f[42m[30mProgress: [ 57%][49m[39m [#######################################...............................] 87[24;0f[42m[30mProgress: [ 71%][49m[39m [##################################################....................] 87[24;0f[42m[30mProgress: [ 86%][49m[39m [############################################################..........] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;24r8[1A[J]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt-get install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libblas3 libfwup1 liblinear3 libwayland-egl1-mesa
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap liblua5.2-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+0 upgraded, 9 newly installed, 0 to remove and 13 not upgraded.
+Need to get 1,712 kB of archives.
+After this operation, 6,921 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libapr1 amd64 1.6.3-2 [90.9 kB]
+0% [1 libapr1 1,162 B/90.9 kB 1%]                                 6% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1 amd64 1.6.1-2 [84.4 kB]
+7% [2 libaprutil1 2,590 B/84.4 kB 3%]                                     13% [Working]             Get:3 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-2 [10.6 kB]
+13% [3 libaprutil1-dbd-sqlite3 1,163 B/10.6 kB 11%]                                                   15% [Working]             Get:4 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-ldap amd64 1.6.1-2 [8,764 B]
+15% [4 libaprutil1-ldap 1,164 B/8,764 B 13%]                                            18% [Working]             Get:5 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108 kB]
+18% [5 liblua5.2-0 1,161 B/108 kB 1%]                                     25% [Working]             Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-bin amd64 2.4.29-1ubuntu4.13 [1,070 kB]
+25% [6 apache2-bin 1,159 B/1,070 kB 0%]                                       78% [Working]             Get:7 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-utils amd64 2.4.29-1ubuntu4.13 [83.8 kB]
+78% [7 apache2-utils 2,590 B/83.8 kB 3%]                                        84% [Working]             Get:8 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-data all 2.4.29-1ubuntu4.13 [160 kB]
+84% [8 apache2-data 1,161 B/160 kB 1%]                                      93% [Working]             Get:9 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2 amd64 2.4.29-1ubuntu4.13 [95.1 kB]
+93% [9 apache2 1,162 B/95.1 kB 1%]                                  100% [Working]              Fetched 1,712 kB in 2s (1,071 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 164394 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.3-2_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.3-2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-2) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-bin (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../6-apache2-utils_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-utils (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../7-apache2-data_2.4.29-1ubuntu4.13_all.deb ...
+Unpacking apache2-data (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2 (2.4.29-1ubuntu4.13) ...
+Setting up libapr1:amd64 (1.6.3-2) ...
+Setting up apache2-data (2.4.29-1ubuntu4.13) ...
+Setting up libaprutil1:amd64 (1.6.1-2) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-2) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Setting up apache2-utils (2.4.29-1ubuntu4.13) ...
+Setting up apache2-bin (2.4.29-1ubuntu4.13) ...
+Setting up apache2 (2.4.29-1ubuntu4.13) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for systemd (237-3ubuntu10.39) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+ureadahead will be reprofiled on next reboot
+]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt remove apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap libblas3 libfwup1 liblinear3 liblua5.2-0 libwayland-egl1-mesa
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  apache2
+0 upgraded, 0 newly installed, 1 to remove and 13 not upgraded.
+After this operation, 535 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;23r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 165099 files and directories currently installed.)
+Removing apache2 (2.4.29-1ubuntu4.13) ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [......................................................................] 87[24;0f[42m[30mProgress: [ 25%][49m[39m [#################.....................................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [###################################...................................] 87[24;0f[42m[30mProgress: [ 75%][49m[39m [####################################################..................] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+
+7[0;24r8[1A[J]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ sudo apt list > package.txt
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+]0;heleena@heleena-HP-15-Notebook-PC: ~/ceccs18c24/cs232/2603[01;32mheleena@heleena-HP-15-Notebook-PC[00m:[01;34m~/ceccs18c24/cs232/2603[00m$ exit
+exit
+
+Script done on 2020-03-26 11:56:51+0530
