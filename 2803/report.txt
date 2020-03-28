@@ -1,0 +1,59 @@
+CEC CS 18 c 24
+Heleena Anna Varghese
+
+--------------------------------
+#1:Task 8(4)
+
+---------------------------------
+kernel compilation
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+# To download kernel
+    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz
+
+# To extract the source code
+    unxz -v linux-5.5.9.tar.xz
+
+#To download pgp signature
+    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.sign
+
+# To verify kernel tartball 
+    gpg --verify linux-5.5.9.tar.sign
+
+# To change the directory
+    cd linux-5.5.9
+
+# To copy the configuration files
+    cp -v /boot/config-$(uname -r) .config
+
+#To install development tools required to compile the kernel
+    sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+
+# To compile the kernel
+    make -j $(nproc)
+
+--------------------------------
+Output: 
+
+  Compiled kernel at /linux-5.5.9
+
+-------------------
+Remarks if any:
+
+  Screenshot of compiled files are attached in screenshot.png
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
