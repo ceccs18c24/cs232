@@ -1,0 +1,48 @@
+CEC CS 18 c24
+Heleena Anna Varghese
+02-04-2020
+--------------------------------
+#1: 
+---------------------------------
+# S6
+     Shell script to implement a menu driven calculator using
+     1)Addition
+     2)Subtraction
+     3)Multiplication
+     4)Division
+     5)modulus
+
+---------------------------------
+
+    calculator.sh  # Shell script used
+
+
+Input: (If relevant)
+---------------
+   Read two numbers from user
+   24 and 4
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+   Addition,Subtraction,Multiplication,Division,Modulus operations are done and output is obtained
+
+
+-------------------
+Remarks if any:
+
+ image1.png and image2.png contain the screenshot of various operations done.
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
