@@ -1,0 +1,77 @@
+CEC CS 18 c24
+Heleena Anna Varghese
+05 April 2020
+Public ip :  112.133.237.18
+
+--------------------------------
+#1: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+s4:  Shell Programming script to show various system configuration like :
+
+ # Currently logged user and his login name 
+ # Your current shell 
+ # Your home directory 
+ # Your operating system type 
+ # Your current path setting 
+ # Your current working directory 
+ # Number of users currently logged in 
+---------------------------------
+
+Input: (If relevant)
+---------------
+   sys_config1.sh   # shell script
+
+
+--------------------------------
+Output:
+
+    picture.png  contains various system configurations
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+s5 : Shell Programming script to show various system configurations like 
+
+# your OS and version, release number, kernel version 
+# all available shells 
+# computer CPU information like processor type, speed etc 
+# memory information 
+# hard disk information like size of hard-disk, cache memory, model etc 
+# File system (Mounted) 
+
+-------------------------------------
+-------------------------------------
+
+
+Input: (If relevant)
+---------------
+   sys_config2.sh   # shell script
+
+Output:
+  
+   .. OS and version, release number, kernel version 
+   .. all available shells 
+   .. computer CPU information like processor type, speed etc 
+   .. memory information 
+   .. hard disk information like size of hard-disk, cache memory, model etc 
+   .. File system (Mounted) are obtained.
+
+
+#3:
+
+#4:
+
+#5:
+
+
+
